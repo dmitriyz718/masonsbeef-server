@@ -2,6 +2,7 @@
     <div class="container">
         <div class="block two first">
             <h2>MASONS BEEF</h2>
+            <h4>Mason's Beef is a company located in Dallas, TX which currently has around 300 clients. They sell artisan beef jerky, and as of yet have no online presence in the form of a website. This project will be to build them a fully functional full stack application with RESTful routing. The end goal is to give the client(owners of the company) the ability to take orders via their website, add products, remove products, and display quantities available. On MongoDB I will store product name, description, qunaitity in stock, and a link to the product image. Users will also be stored on the database and authenticated via json web tokens to check for admin or regular user. Admins will be able to edit delete and add new products. Once MVP is reached, I plan on adding another feature where users can add items to a cart which will save for x amount of time.</h4>
             <div class="wrap">
                 <p><strong>Technologies used in server:</strong></p>
                 <p><a href="https://github.com/dmitriyz718/masonsbeef-server">Server Github Repo</a></p>

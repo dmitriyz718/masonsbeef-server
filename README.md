@@ -25,6 +25,7 @@
     <li>"react-dom": "^16.13.1"</li>
     <li>"react-router-dom": "^5.2.0"</li>
     <li>"react-scripts": "3.4.3"</li>
+    <li>REACT BOOTSTRAP FOR DESIGNING</li>
     </ul>
             </div>
         </div>

@@ -1,7 +1,7 @@
 const db = require('../models');
 
 
-// GET api/items - get all items
+// GET api/products - get all products
 const index = (req, res) => {
     db.Product.find()
         .sort({ date: -1 })
@@ -21,8 +21,23 @@ const delItem = (req, res) => {
         res.status(200).json(deletedProduct)
     })
 }
+// view single item
+const showItem = (req, res) => {
+    db.Product.findById(req.params.id, (err, singleProduct) => {
+        if (err) console.log(`error showing item: `, err);
+        res.json(singleProduct)
+    })
+}
+const updateProduct = (req, res) => {
+    db.Product.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedProduct) => {
+        if (err) console.log(`error updating product, error: `, err)
+        res.json(updatedProduct)
+    })
+}
 module.exports = {
     index,
     create,
-    delItem
+    delItem,
+    showItem,
+    updateProduct
 }

@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        },
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        },
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        },
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        },
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        },
+        {
+            "name": "beef jerky 1",
+            "creator": "Jenn & James Gill",
+            "imgUrl": "http://dnyc.dev/masonsbeef/",
+            "quantity": 20
+        }
+    ]
+}

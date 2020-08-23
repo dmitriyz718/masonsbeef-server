@@ -1,6 +1,6 @@
 const db = require('../models');
 const bcrypt = require('bcryptjs');
-const { User } = require('../models');
+
 
 
 // GET api/products - get all products
@@ -8,17 +8,17 @@ const index = (req, res) => {
     // validation
     const { username, email, password } = req.body;
     if (!username || !email || !password) {
-        return res.status(400).json({ msg: 'Please enter all fields' });
+        return res.status(400).json({ msg: 'Please enter all fields to register' });
     }
     if (password.length < 8) {
         return res.status(400).json({ message: 'Password must be at least 8 characters long' });
     }
     //check for user existing
-    User.findOne({ email })
+    db.User.findOne({ email })
         .then(user => {
             if (user) return res.status(400).json({ msg: 'User already exists' });
 
-            const newUser = new User({
+            const newUser = new db.User({
                 username,
                 email,
                 password

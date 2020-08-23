@@ -20,7 +20,10 @@ const userSchema = mongoose.Schema({
         type: Date,
         default: Date.now,
     },
-    isAdmin: false
+    isAdmin: {
+        type: Boolean,
+        default: false
+    }
 });
 
 const User = mongoose.model('User', userSchema);

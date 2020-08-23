@@ -1,37 +1,36 @@
 {
     "products": [
         {
-            "name": "beef jerky 1",
+            "name": "Cajun",
+            "description": "Mouth watering artisan home made beef jerky, made with love in Texas!",
             "creator": "Jenn & James Gill",
             "imgUrl": "http://dnyc.dev/masonsbeef/",
             "quantity": 20
         },
         {
-            "name": "beef jerky 1",
+            "name": "Inferno",
+            "description": "Mouth watering artisan home made beef jerky, made with love in Texas!",
             "creator": "Jenn & James Gill",
             "imgUrl": "http://dnyc.dev/masonsbeef/",
             "quantity": 20
         },
         {
-            "name": "beef jerky 1",
+            "name": "Cracked Pepper",
+            "description": "Mouth watering artisan home made beef jerky, made with love in Texas!",
             "creator": "Jenn & James Gill",
             "imgUrl": "http://dnyc.dev/masonsbeef/",
             "quantity": 20
         },
         {
-            "name": "beef jerky 1",
+            "name": "Teriyaki",
+            "description": "Mouth watering artisan home made beef jerky, made with love in Texas!",
             "creator": "Jenn & James Gill",
             "imgUrl": "http://dnyc.dev/masonsbeef/",
             "quantity": 20
         },
         {
-            "name": "beef jerky 1",
-            "creator": "Jenn & James Gill",
-            "imgUrl": "http://dnyc.dev/masonsbeef/",
-            "quantity": 20
-        },
-        {
-            "name": "beef jerky 1",
+            "name": "Jalapeno",
+            "description": "Mouth watering artisan home made beef jerky, made with love in Texas!",
             "creator": "Jenn & James Gill",
             "imgUrl": "http://dnyc.dev/masonsbeef/",
             "quantity": 20

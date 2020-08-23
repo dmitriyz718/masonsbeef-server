@@ -22,7 +22,9 @@ app.use(cors({
 // use routes so current path is /api/products
 app.use('/api/products', routes.products);
 //auth
-app.use('/api/auth', routes.auth)
+app.use('/api/auth', routes.auth);
+// auth verification
+app.use('/api/verify', routes.verify);
 
 
 

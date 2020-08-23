@@ -1,6 +1,6 @@
 const db = require('../models');
 const bcrypt = require('bcryptjs');
-
+const jwt = require('jsonwebtoken');
 
 
 // GET api/products - get all products
@@ -30,13 +30,28 @@ const index = (req, res) => {
                     newUser.password = hash;
                     newUser.save()
                         .then(user => {
-                            res.json({
-                                user: {
-                                    id: user.id,
-                                    username: user.name,
-                                    email: user.email
+
+                            // create and sign web token
+                            jwt.sign( // takes three fields, one is payload, can be more than just ID
+                                // second is secret and third is expires in
+                                { id: user.id },
+                                process.env.JWT_SECRET,
+                                { expiresIn: '1h' },
+                                (err, token) => { // fourth is the callback function
+                                    if (err) throw err;
+                                    res.json({
+                                        token,
+                                        user: {
+                                            id: user.id,
+                                            username: user.name,
+                                            email: user.email
+                                        }
+                                    })
+
                                 }
-                            })
+                            )
+
+
                         })
                 })
             })

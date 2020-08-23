@@ -23,7 +23,8 @@ const userSchema = mongoose.Schema({
     isAdmin: {
         type: Boolean,
         default: false
-    }
+    },
+    cart: [{}]
 });
 
 const User = mongoose.model('User', userSchema);

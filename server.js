@@ -19,8 +19,11 @@ app.use(cors({
     optionsSuccessStatus: 200 // some legacy browsers choke on satus 204
 }));
 
-// use routes so current path is /api/items
+// use routes so current path is /api/products
 app.use('/api/products', routes.products);
+//auth
+app.use('/api/auth', routes.auth)
+
 
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

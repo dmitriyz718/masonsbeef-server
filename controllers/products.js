@@ -9,19 +9,20 @@ const index = (req, res) => {
 }
 // create item
 const create = (req, res) => {
-    const newProduct = new Product({
-        name: req.body.name,
-    });
-    newProduct.save().then(item => res.json(item));
+    db.Product.create(req.body, (err, createdProduct) => {
+        if (err) console.log(err);
+        res.json(createdProduct)
+    })
 }
 // delete an item
-/* const delItem = (req, res) => {
-    db.findByIdAndDelete(req.params.id, (err, deletedProduct) => {
+const delItem = (req, res) => {
+    db.Product.findByIdAndDelete(req.params.id, (err, deletedProduct) => {
         if (err) console.log(`error deleting product: `, err);
         res.status(200).json(deletedProduct)
     })
-} */
+}
 module.exports = {
     index,
-    create
+    create,
+    delItem
 }

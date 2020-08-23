@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 // GET api/items - get all items
 
 const index = (req, res) => {
+    // basic verification
     const { email, password } = req.body;
     if (!email || !password) {
         return res.status(400).json({
@@ -23,8 +24,8 @@ const index = (req, res) => {
                         process.env.JWT_SECRET,
                         { expiresIn: '1h' },
                         (err, token) => {
-                            if (err) throw err;
-                            res.json({
+                            if (err) throw err; // stop if error
+                            res.json({ // if no error send user id, name and email
                                 token,
                                 user: {
                                     id: user.id,

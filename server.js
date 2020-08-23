@@ -21,9 +21,9 @@ app.use(cors({
 
 // use routes so current path is /api/products
 app.use('/api/products', routes.products);
-//auth
+//auth - create delete and update users
 app.use('/api/auth', routes.auth);
-// auth verification
+// auth verification - verify tokens
 app.use('/api/verify', routes.verify);
 
 

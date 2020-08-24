@@ -29,7 +29,7 @@ const index = (req, res) => {
                                 token,
                                 user: {
                                     id: user.id,
-                                    name: user.name,
+                                    name: user.username,
                                     email: user.email
                                 }
                             })

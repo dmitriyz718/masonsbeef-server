@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 
-// GET api/products - get all products
+// create account
 const index = (req, res) => {
     // validation
     const { username, email, password } = req.body;
@@ -58,7 +58,12 @@ const index = (req, res) => {
         })
 
 }
-
+const findUser = (req, res) => {
+    db.User.findById(req.username.id)
+        .select('-password')
+        .then(user => res.json(user));
+};
 module.exports = {
-    index
+    index,
+    findUser
 }

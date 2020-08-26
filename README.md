@@ -1,11 +1,17 @@
 # Masons Beef
 
-Mason's Beef is a company located in Dallas, TX which currently has around 300 clients. They sell artisan beef jerky, and as of yet have no online
-            presence in the form of a website. This project will be to build them a fully functional full stack application with RESTful routing. The end goal is to
-            give the client(owners of the company) the ability to take orders via their website, add products, remove products, and display quantities available.
-            On MongoDB I will store product name, description, qunaitity in stock, and a link to the product image. Users will also be stored on the database and
-            authenticated via json web tokens to check for admin or regular user. Admins will be able to edit delete and add new products. Once MVP is reached, I
-            plan on adding another feature where users can add items to a cart which will save for x amount of time.
+Mason's Beef is a company located in Dallas, TX which currently has around 300 clients. They sell artisan beef jerky, and as of yet have no online presence in the form of a website. This project will be to build them a fully functional full stack application with RESTful routing. The end goal is togive the client(owners of the company) the ability to take orders via their website, add products, remove products, and display quantities available.On MongoDB I will store product name, description, qunaitity in stock, and a link to the product image. Users will also be stored on the database andauthenticated via json web tokens to check for admin or regular user. Admins will be able to edit delete and add new products. Once MVP is reached, I
+plan on adding another feature where users can add items to a cart which will save for x amount of time.
+
+## Users
+Shoppers online looking for good snacks will be able to go to the site, select the items they want, and checkout.
+Shop owners will be notified of new orders via email.
+
+## Links
+
+Wireframes, ERDs:
+Repo's:
+Live:
 
 ## Installation
 
@@ -50,10 +56,9 @@ npm i
 Make shopping cart fully functional with a checkout page that intakes user's personal info to check out as guest
 Or if the user is logged in, retrieve info from MongoDB
 
+Create a seperate section for order management.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)

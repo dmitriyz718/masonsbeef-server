@@ -28,6 +28,7 @@ const showItem = (req, res) => {
         res.json(singleProduct)
     })
 }
+// update product
 const updateProduct = (req, res) => {
     db.Product.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedProduct) => {
         if (err) console.log(`error updating product, error: `, err)

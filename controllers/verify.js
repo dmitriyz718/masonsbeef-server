@@ -30,8 +30,9 @@ const index = (req, res) => {
                                 token,
                                 user: {
                                     id: user.id,
-                                    name: user.username,
-                                    email: user.email
+                                    username: user.username,
+                                    email: user.email,
+                                    isAdmin: user.isAdmin
                                 }
                             })
                         })

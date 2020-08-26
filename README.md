@@ -16,6 +16,7 @@ Live:
 ## Installation
 
 Clone the server (this repo) and the client (repo link below) and run npm i for both.
+env files are not pushed so make your own with a jwt sevret, smtp info for contact us and so on
 
 ```bash
 npm i
@@ -32,6 +33,7 @@ npm i
     "mongoose": "^5.10.0"
     "node": "^14.8.0"
     "nodemon": "^2.0.4"
+    "nodemailer": "^6.4.11"
 ```
 ## Dependencies for Client
 
@@ -50,6 +52,7 @@ npm i
     "reactstrap": "^8.5.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
+    "nodemailer": "^6.4.11"
 ```
 
 ## Planned additions

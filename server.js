@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require(`dotenv`).config();
 const app = express();
-const PORT = process.env.PORT || 5000;
+app.listen(process.env.PORT || 5000);
 const routes = require('./routes');
 
 
@@ -18,6 +18,8 @@ app.use(cors({
     // credentials: true, // allows the session cookie to be sent back and forth from server to client
     optionsSuccessStatus: 200 // some legacy browsers choke on satus 204
 }));
+
+
 
 // use routes so current path is /api/products
 app.use('/api/products', routes.products);

@@ -30,14 +30,20 @@ npm i
 ## Dependencies for Client
 
 ```
-    jwt-decode": "^2.2.0"
-    react: ^16.13.1
-    react-bulma-components: ^3.4.0
-    react-dom: ^16.13.1
-    react-router-dom: ^5.2.0
-    react-scripts: 3.4.3
-    Redux/ React Redux/ Thunk
-    REACT BOOTSTRAP FOR DESIGNING
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
+    "dotenv": "^8.2.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-bulma-components": "^3.4.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
 ```
 
 ## Planned additions

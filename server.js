@@ -11,12 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // cors
-app.use(cors({
-    origin: [`http://localhost:3000`, `*`],
-    methods: "GET,POST,PUT,DELETE",
-    // credentials: true, // allows the session cookie to be sent back and forth from server to client
-    optionsSuccessStatus: 200 // some legacy browsers choke on satus 204
-}));
+app.use(cors());
 
 
 

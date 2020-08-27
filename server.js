@@ -3,10 +3,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require(`dotenv`).config();
 const app = express();
-const PORT = process.env.PORT || 5000;
-app.listen(process.env.PORT || 5000);
 const routes = require('./routes');
-
+const PORT = process.env.PORT || 5000;
 
 //bodyparser middle ware
 app.use(express.urlencoded({ extended: false }));
@@ -28,7 +26,6 @@ app.use('/api/products', routes.products);
 app.use('/api/auth', routes.auth);
 // auth verification - verify tokens
 app.use('/api/verify', routes.verify);
-
 
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

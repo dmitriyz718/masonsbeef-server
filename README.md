@@ -13,7 +13,10 @@ Wireframes, ERDs:
 Repo's:
 Live:
 API - [https://masonsbeef.heroku.com](https://masonsbeef.heroku.com)
-Site:
+Site: [https://masonsbeefclient.herokuapp.com/](https://masonsbeefclient.herokuapp.com/)
+[Original Trello](https://trello.com/b/jbnEXgEp/masons-beef)
+[Original Wireframe](https://wireframepro.mockflow.com/editor.jsp?editor=on&bgcolor=white&perm=Create&ptitle=MasonsBeef&category=web&projectid=Ma594a2caf90edf68911f91fdcfadbc031598025060026&publicid=957c47fe28bf4e3f8950864b6912f333#/page/af5acee5ed4343db9622ca294110e6a3)
+[Diagram]()
 
 ## Installation
 

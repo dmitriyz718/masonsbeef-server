@@ -9,7 +9,6 @@ Shop owners will be notified of new orders via email.
 
 ## Links
 
-Wireframes, ERDs:
 Repo's:
 
 [CLIENT](https://github.com/dmitriyz718/masonsbeef-client)

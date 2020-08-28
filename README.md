@@ -34,7 +34,7 @@ API -
 ## Installation
 
 Clone the server (this repo) and the client (repo link below) and run npm i for both.
-env files are not pushed so make your own with a jwt sevret, smtp info for contact us and so on
+env files are not pushed so make your own with a jwt secret, smtp info for contact us and so on
 
 ```bash
 npm i

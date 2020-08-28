@@ -11,13 +11,25 @@ Shop owners will be notified of new orders via email.
 
 Wireframes, ERDs:
 Repo's:
+```
 [CLIENT](https://github.com/dmitriyz718/masonsbeef-client)
+```
+```
 [SERVER](https://github.com/dmitriyz718/masonsbeef-server)
-Live: [https://masonsbeefclient.herokuapp.com/](https://masonsbeefclient.herokuapp.com/)
-API - [https://masonsbeef.heroku.com](https://masonsbeef.heroku.com)
-
+```
+Live:
+```
+[https://masonsbeefclient.herokuapp.com/](https://masonsbeefclient.herokuapp.com/)
+```
+API -
+```
+[https://masonsbeef.heroku.com](https://masonsbeef.heroku.com)
+```
 [Original Trello](https://trello.com/b/jbnEXgEp/masons-beef)
+
 [Original Wireframe](https://wireframepro.mockflow.com/editor.jsp?editor=on&bgcolor=white&perm=Create&ptitle=MasonsBeef&category=web&projectid=Ma594a2caf90edf68911f91fdcfadbc031598025060026&publicid=957c47fe28bf4e3f8950864b6912f333#/page/af5acee5ed4343db9622ca294110e6a3)
+
+
 [Diagram](https://app.lucidchart.com/documents/edit/ef385167-d70a-4c8b-8aca-01a059e02dc6/0_0)
 
 ## Installation

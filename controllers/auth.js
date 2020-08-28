@@ -11,7 +11,7 @@ const index = (req, res) => {
         return res.status(400).json({ msg: 'Please enter all fields to register' });
     }
     if (password.length < 8) {
-        return res.status(400).json({ message: 'Password must be at least 8 characters long' });
+        return res.status(400).json({ msg: 'Password must be at least 8 characters long' });
     }
     //check for user existing
     db.User.findOne({ email })
